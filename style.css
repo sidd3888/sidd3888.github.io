@@ -3,7 +3,7 @@ html, body {
     margin-left: 0;
     margin-right: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -89,7 +89,43 @@ html, body {
 .footer-text {
     text-align: center;
     font-size: 14px; /* Adjust this value to change the font size */
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     background-color: #E8F0F0;
+}
+.research_type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.research_type > div {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.research_type > div > h2 {
+    color: #000;
+}
+h1 {
+    text-align: center;
+}
+.paper {
+    color: #000;
+}
+
+a {
+    color: #000049;
+}
+a:hover {
+    color: #0000AB;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: "Menlo", monospace;
 }
