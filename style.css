@@ -138,4 +138,13 @@ code {
     color: #666;
     page-break-inside: avoid;
     font-family: "Menlo", monospace;
+    font-size: 12px;
+}
+
+.pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+    margin-top: 50px;
 }
