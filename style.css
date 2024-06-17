@@ -9,14 +9,17 @@
     font-style: italic;
 }
 html, body {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
+  }
+  body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+  }
+  main {
+    flex: 1 0 auto;
   }
   .heading {
     background-image: url('Images/Background.jpeg');
@@ -158,4 +161,9 @@ code {
 }
 .cv > p {
     font-size: 16px;
+}
+footer {
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
 }
