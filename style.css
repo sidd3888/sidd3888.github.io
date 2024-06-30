@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../Font/OpenSans.ttf');
+    font-family: 'Exo 2';
+    src: url('../Font/Exo2.ttf');
     font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../Font/OpenSans-Italic.ttf');
+    font-family: 'Exo 2';
+    src: url('../Font/Exo2-Italic.ttf');
     font-style: italic;
 }
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
   }
   body {
@@ -22,7 +22,8 @@ html, body {
     flex: 1 0 auto;
   }
   .heading {
-    background-image: url('Images/Background.jpeg');
+    /* background-image: url('Images/Background.jpeg'); */
+    background-color: #EFEFEF;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -48,10 +49,10 @@ html, body {
 .head-strip > p {
     margin: 0;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
     padding: 0.25cm;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
 }
 
 .head-strip > ul {
@@ -67,16 +68,16 @@ html, body {
 
 .head-strip > ul > li > a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-size: 16px;
-    font-weight: medium;
-    color: #FFFFFF;
+    font-weight: 200;
+    color: #000;
 }
 .head-strip > ul > li > a:hover {
-    font-weight: 600; /* Change this to the color you want when hovering */
+    font-weight: 400; /* Change this to the color you want when hovering */
 }
 .head-strip > ul > li > a.active {
-    font-weight: bold; /* Change this to the color you want when hovering */
+    font-weight: 500; /* Change this to the color you want when hovering */
 }
 .flex-container {
     margin-top: 20px;
@@ -94,17 +95,20 @@ html, body {
     width: 55%;
 }
 .bio > h2 {
-    color: #64687E;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
 }
 .bio p > b > u > a {
-    color: #64687E;
+    color: #4C9CD0;
 }
 .footer-text {
     text-align: center;
     font-size: 14px; /* Adjust this value to change the font size */
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    background-color: #E8F0F0;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    background-color: #FFF;
 }
 .research_type {
     margin-top: 20px;
@@ -117,21 +121,27 @@ html, body {
 }
 .research_type > div > h2 {
     color: #000;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
 }
 
 h3 {
     margin-top: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
     color: #0000AB;
 }
 h1 {
     text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
 }
 .paper {
     color: #000;
 }
 
 a {
-    color: #000049;
+    color: #4C9CD0;
 }
 a:hover {
     color: #0000AB;
@@ -165,6 +175,9 @@ code {
 footer {
     margin: 0;
     padding: 0;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #4C9CD0;
     flex-shrink: 0;
 }
 .mail {
