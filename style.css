@@ -8,10 +8,21 @@
     src: url('../Font/Exo2-Italic.ttf');
     font-style: italic;
 }
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../Font/SourceSans3.ttf');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source Sans 3';
+    src: url('../Font/SourceSans3-Italic.ttf');
+    font-style: italic;
+}
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
     height: 100%;
   }
   body {
@@ -48,7 +59,7 @@ html, body {
 }
 .head-strip > p {
     margin: 0;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     padding: 0.25cm;
     font-family: 'Exo 2', sans-serif;
@@ -69,7 +80,7 @@ html, body {
 .head-strip > ul > li > a {
     text-decoration: none;
     font-family: 'Exo 2', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
     color: #000;
 }
@@ -105,8 +116,6 @@ html, body {
 }
 .footer-text {
     text-align: center;
-    font-size: 14px; /* Adjust this value to change the font size */
-    font-family: 'Exo 2', sans-serif;
     font-weight: 500;
     background-color: #FFF;
 }
@@ -170,7 +179,7 @@ code {
     margin-bottom: 40px;
 }
 .cv > p {
-    font-size: 16px;
+    font-size: 18px;
 }
 footer {
     margin: 0;
@@ -182,5 +191,5 @@ footer {
 }
 .mail {
     text-decoration: none;
-    color: #000;
+    color: #4C9CD0;
 }
