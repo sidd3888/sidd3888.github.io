@@ -18,6 +18,11 @@
     src: url('../Font/SourceSans3-Italic.ttf');
     font-style: italic;
 }
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../Font/PTSerif-Bold.ttf');
+    font-style: bold;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -39,6 +44,9 @@ html, body {
     background-repeat: no-repeat;
     position: relative;
     height: 70px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #C3C3C3;
   }
   /* .heading::before {
     content: "";
@@ -107,8 +115,7 @@ html, body {
 }
 .bio > h2 {
     color: #000;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
+    font-family: 'PT Serif', serif;
     font-size: 24px;
 }
 .bio p > b > u > a {
@@ -130,14 +137,12 @@ html, body {
 }
 .research_type > div > h2 {
     color: #000;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 500;
+    font-family: 'PT Serif', serif;
 }
 
 h3 {
     margin-top: 30px;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 600;
+    font-family: 'PT Serif', serif;
     color: #0000AB;
 }
 h1 {
