@@ -18,11 +18,11 @@
     src: url('../Font/SourceSans3-Italic.ttf');
     font-style: italic;
 }
-@font-face {
+/* @font-face {
     font-family: 'PT Serif';
     src: url('../Font/PTSerif-Bold.ttf');
     font-style: bold;
-}
+} */
 html, body {
     margin: 0;
     padding: 0;
@@ -147,7 +147,7 @@ h3 {
 }
 h1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-weight: 600;
 }
 .paper {
